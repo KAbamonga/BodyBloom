@@ -19,6 +19,7 @@ struct ContentView: View {
             Text("try again")
             Text("Its gonna work")
             Text("hopefully this works")
+            Text("new edit")
         }
         .padding()
     }
