@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22CC06912A4EF86300DC058B /* logInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC06902A4EF86300DC058B /* logInScreen.swift */; };
+		800E9E3B2A4F1B4300547518 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800E9E3A2A4F1B4300547518 /* File.swift */; };
 		8367C4E12A4DF97000E1F57F /* BodyBloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367C4E02A4DF97000E1F57F /* BodyBloomApp.swift */; };
 		8367C4E32A4DF97000E1F57F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367C4E22A4DF97000E1F57F /* ContentView.swift */; };
 		8367C4E52A4DF97100E1F57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8367C4E42A4DF97100E1F57F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		22CC06902A4EF86300DC058B /* logInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInScreen.swift; sourceTree = "<group>"; };
+		800E9E3A2A4F1B4300547518 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		8367C4DD2A4DF97000E1F57F /* BodyBloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyBloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8367C4E02A4DF97000E1F57F /* BodyBloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyBloomApp.swift; sourceTree = "<group>"; };
 		8367C4E22A4DF97000E1F57F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				8367C4E02A4DF97000E1F57F /* BodyBloomApp.swift */,
 				8367C4E22A4DF97000E1F57F /* ContentView.swift */,
+				800E9E3A2A4F1B4300547518 /* File.swift */,
 				22CC06902A4EF86300DC058B /* logInScreen.swift */,
 				8367C4E42A4DF97100E1F57F /* Assets.xcassets */,
 				8367C4E62A4DF97100E1F57F /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8367C4E32A4DF97000E1F57F /* ContentView.swift in Sources */,
+				800E9E3B2A4F1B4300547518 /* File.swift in Sources */,
 				8367C4E12A4DF97000E1F57F /* BodyBloomApp.swift in Sources */,
 				22CC06912A4EF86300DC058B /* logInScreen.swift in Sources */,
 			);
