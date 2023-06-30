@@ -9,21 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Text("pls work")
-            Text("pleaseeee")
-            Text("try again")
-            Text("Its gonna work")
-            Text("hopefully this works")
-            Text("new edit")
-            Text("IT WORKED AAA")
-            Text("Hi")
+        ZStack {
+            Color(red: 250/255, green:248/255, blue:212/255)
+                .ignoresSafeArea()
+            Image("logo")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding(.all, 20.0)
         }
-        .padding()
+        
     }
 }
 
