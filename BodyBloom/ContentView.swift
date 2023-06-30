@@ -9,15 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Color(red: 250/255, green:248/255, blue:212/255)
-                .ignoresSafeArea()
-            Image("logo")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
-                .padding(.all, 20.0)
+        NavigationStack {
+            ZStack {
+                Color(red: 250/255, green:248/255, blue:212/255)
+                    .ignoresSafeArea()
+                
+                VStack {
+                    Image("logo")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .padding(.all, 20.0)
+                    
+                    NavigationLink(destination: logInScreen()) {
+                        Text("Log In")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.purple)
+                    }
+                }
+            }
         }
-        
     }
 }
 
